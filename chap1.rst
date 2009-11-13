@@ -31,7 +31,7 @@ Using GNU/Linux
 
 Shown below is the screenshot of a Fedora GNU/Linux desktop.
 
-.. image:: desktop1c.png
+.. image:: images/desktop1c.png
 
 
 You will find menu's like **Applications**, **Places**, **System** etc. The menu layout and desktop appearance will
@@ -55,7 +55,7 @@ other GNU/Linux distributions - so you will definitely have to experiment a bit!
 
 Here is a screen shot of a Fedora desktop with the terminal application active.
 
-.. image:: terminal.png
+.. image:: images/terminal.png
 
 You can type commands within the terminal window and they would get executed. Say for example you wish to
 see the current date - the command for doing this is simply  *date*. Here is what you might see if
