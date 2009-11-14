@@ -57,6 +57,50 @@ counting from zero, that is why the first mark is marks[0] and not marks[1].
 You can read the statement marks[0] as either *marks zero* or *marks of zero*. The operation of looking
 at individual elements of a list is called *indexing*.
 
+What will happen if you write *marks[5]*? Let's find out::
+
+   >>> marks[5]
+   Traceback (most recent call last):
+   File "<stdin>", line 1, in <module>
+   IndexError: list index out of range
+   >>> 
+
+Look at the last line of the error message; it says *IndexError: list index out of range*. The elements of 
+the list are numbered from 0 to 4 - you are asking Python to display an element in the sequence which is
+simply not present and so you get an error!
+
+
+Modifying the elements of a list
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Let's say you wish to change the mark of the first student from 80 to 65. Here is how it is done::
+
+   >>> marks[0] = 65
+   >>> marks
+   [65, 75, 66, 55, 95]
+   >>>
+
+Appending elements to a list
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+How do you append a new mark to the *marks* list?::
+
+   >>> marks.append(41)
+   >>> marks
+   [65, 75, 66, 55, 95, 41]
+   >>> marks.append(15)
+   >>> marks
+   [65, 75, 66, 55, 95, 41, 15]
+   >>>
+
+Deleting an element from a list
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Say you wish to delete the third element of the *marks* list::
+
+   >>> del marks[2]
+   >>> marks
+   [65, 75, 55, 95, 41]
+   >>> 
+
 
 
 
