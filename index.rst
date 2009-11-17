@@ -20,8 +20,19 @@ to master Python syntax and idioms in depth. There are plenty of great resources
 *Dive into Python* (available at  http://www.diveintopython.org).
 
 
+License
+========
+This book is published under the `GNU FDL <http://www.gnu.org/copyleft/fdl.html>`_
 
-Contents:
+How to build the book from source
+=================================
+
+This book is written using an excellent tool called `Sphinx <http://sphinx.pocoo.org/>`_. Source 
+files are available from `GitHub <http://github.com/pramode/Python-and-LaTeX-Book>`_.
+
+
+Contents
+=========
 
 .. toctree::
    :maxdepth: 2
