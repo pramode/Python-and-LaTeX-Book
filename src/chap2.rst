@@ -47,9 +47,15 @@ Try a few more experiments::
    1.5
    >>> 2 ** 3
    8
+   >>> 9 % 2
+   1
+   >>> 9 % 3
+   0
    >>>
 
-The *star* symbol performs multiplication and the *double star* performs exponentiation. The only confusing
+
+The *star* symbol performs multiplication and the *double star* performs exponentiation. The % symbol is the
+*remainder* operator. The only confusing
 result is the output from the division operation 3/2. This is explained in detail in the next section.
 
 
@@ -83,6 +89,10 @@ of the result. Here is a simple experiment you can try at the Python prompt::
 You may be surprised at not getting exactly 2.6 as the result. The reason for this behaviour is somewhat complex and
 it's explanation is beyond the scope of this book. At this point, it is sufficient to understand that floating point
 arithmetic is tricky (in all programming languages, not just Python).
+
+.. note::
+   Floating point numbers can be written in a different way - as an example, the number 0.00000001 may be written
+   as 1e-8 (1 * 10 to the power of -8). Another example: 1234.0 can be written as 1.234e3 or 12.34e2 or 123.4e1.
 
 Arithmetic using very large integers
 ------------------------------------
@@ -120,7 +130,7 @@ it is used. In the above example, Python will generate an error if you try to do
 Look at the last line - it says *Namerror: name 'z' is not defined* - the problem is, you have not given a value
 to variable z (you need not bother with the other two lines in the error message - they can be safely ignored).
 
-Mathematicians usually use single letter variable names like x, y, z, a, b etc. But Python has no problems with
+Mathematicians usually use single letter variable names like *x*, *y*, *z*, *a*, *b* etc. But Python has no problems with
 longer names::
 
    >>> mark = 90
@@ -143,13 +153,13 @@ Once you assign a value to a variable, it remains unchanged as long as you do no
    30
    >>>
 
-Initially, x and y have values 1 and 2 which are then changed to 10 and 20.
+Initially, *x* and *y* have values 1 and 2 which are then changed to 10 and 20.
 
 Mistakes made by beginners while using variables
 ---------------------------------------------------------
 
   * Not realizing that variable names are case-sensitive.
-  * If variable x has value 1, writing x + 1 does not change the value of x to 2::
+  * If variable *x* has value 1, writing x + 1 does not change the value of *x* to 2::
       
       >>> x = 1
       >>> x + 1
@@ -158,21 +168,37 @@ Mistakes made by beginners while using variables
       1
       >>>
 
-  * If variable x has value 1, then writing x.1 does not give you 1.1. Variable names
+  * If variable *x* has value 1, then writing x.1 does not give you 1.1. Variable names
     simply do not work that way!
 
 The last mistake is not common, but I have seen students making it in the class!
 
 Exiting Python
 -------------------
-If you wish to stop using Python, simply type 'Ctrl-d' (hold down the key labelled *Ctrl* on the
-keyboard and then type the letter *d*). All the variable assignments which you have
+If you wish to stop using Python, simply type *Ctrl-d* (hold down the key labelled *Ctrl* on the
+keyboard and then type the letter **d**). All the variable assignments which you have
 made are lost if you exit Python.
 
 .. note::
    It is assumed that you are running Python on a GNU/Linux system. On a Windows system, you have
-   to type 'Ctrl-z' and then hit Enter.
+   to type *Ctrl-z* and then hit Enter.
 
+
+
+
+Exercises
+---------
+   1) In mathematics, a *Mersenne number* is a positive integer that is one less than a power of 2.
+         
+        .. math::
+           
+           M_{p} = 2^{p} - 1
+
+      A *Mersenne prime* is a Mersenne number that is prime. As of October 2009, only 47 Mersenne primes
+      have been discovered; the largest known prime number is a Mersenne prime.The 27th Mersenne prime
+      (with 13395 digits in it) is obtained if you use 44497 as the value of *p* in the above equation. 
+      Use Python to find out the value of this number. (Interested students might wish to check out the
+      *Great Internet Mersenne Prime search* on the net).
 
 
 

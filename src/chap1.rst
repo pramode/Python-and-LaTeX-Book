@@ -34,7 +34,7 @@ Shown below is the screenshot of a Fedora GNU/Linux desktop.
 .. image:: ../images/desktop1c.png
 
 
-You will find menu's like **Applications**, **Places**, **System** etc. The menu layout and desktop appearance will
+You will find menu's like *Applications*, *Places*, *System* etc. The menu layout and desktop appearance will
 be different on different GNU/Linux distributions. But that shouldn't bother you too much. A little experimentation
 is all that is required to get up and running fast!
 
@@ -59,7 +59,7 @@ Here is a screen shot of a Fedora desktop with the terminal application active.
 
 You can type commands within the terminal window and they would get executed. Say for example you wish to
 see the current date - the command for doing this is simply  *date*. Here is what you might see if
-you type *date*::
+you type **date**::
 
    [ram@knuth ~]$ date
    Wed Nov 11 12:28:19 IST 2009
