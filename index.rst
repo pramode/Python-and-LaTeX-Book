@@ -43,4 +43,5 @@ Contents
    src/chap4.rst
    src/chap5.rst
    src/chap6.rst
+   src/chap7.rst
 
