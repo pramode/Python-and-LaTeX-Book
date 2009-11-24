@@ -6,7 +6,7 @@
 An introduction to Python and LaTeX
 ========================================
 The  BSc Informatics course conducted by `University of Calicut <http://http://www.universityofcalicut.info>`_ is based completely on Free  Software. Students are required to study the Python programming language and also learn how to
-prepare technical documents using LaTeX. A   majority of the students have a computing background 
+prepare technical documents using LaTeX. Majority of the students have a computing background 
 limited to using Microsoft Windows for simple tasks like web browsing. 
 *An introduction to Python and LaTeX* has
 the objective of providing a gentle introduction to computing to such an audience. 
@@ -27,8 +27,18 @@ This book is published under the `GNU FDL <http://www.gnu.org/copyleft/fdl.html>
 How to build the book from source
 =================================
 
-This book is written using an excellent tool called `Sphinx <http://sphinx.pocoo.org/>`_. Source 
-files are available from `GitHub <http://github.com/pramode/Python-and-LaTeX-Book>`_.
+This book is written using an excellent tool called `Sphinx <http://sphinx.pocoo.org/>`_. Sphinx
+allows you to write in simple `restructured text <http://docutils.sourceforge.net/rst.html>`_ format -
+the conversion to HTML (for display in a browser) as well as LaTeX (for printing) is done by Sphinx.
+You are reading the Sphinx generated book right now!  Source files are available from 
+`GitHub <http://github.com/pramode/Python-and-LaTeX-Book>`_.
+
+A little bit about my book-writing workflow. I maintain a git repo on my home machine from where I
+occassionally push to `GitHub <http://github.com/pramode/Python-and-LaTeX-Book>`_. I have another git
+repository on my Linode slice which hosts the book - occassional pulls from github combined with
+a build which directly delivers  HTML files to the web server's (I use Nginx - do try it out
+if you find Apache to be a memory hog) static files folder is all that is needed to "publish" the book!
+
 
 
 Contents
@@ -44,4 +54,5 @@ Contents
    src/chap5.rst
    src/chap6.rst
    src/chap7.rst
+   src/chap8.rst
 

@@ -2,7 +2,7 @@ Functions with side effects
 ===========================
 Python functions are almost like mathematical functions - you give the function some input (give the
 number 2 to the *sqr* function), it performs some computation and gives you an output (4, in the case
-of the *sqr* function). In fact, the only reason we are calling a function is we are interested in 
+of the *sqr* function). In fact, the only reason we are using a function is because we are interested in 
 getting its output. 
 
 But this need not be the case always. In this chapter, we examine how to write functions which have
@@ -85,7 +85,7 @@ altering the value of a global variable. Both these functions are useful precise
 
 If you go deeper into programming, you will see many situations where you will define functions mostly to generate some
 kind of side effect, rather than to evaluate some  mathematical expressions. Those topics are beyond the scope of
-this book.
+this book. 
 
 
 

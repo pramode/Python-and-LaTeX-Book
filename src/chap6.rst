@@ -24,10 +24,10 @@ Try the following experiment at the Python prompt::
   
 Python tells us that the name *sqr* is not defined; there is a function defined in the
 math library for computing the square root, but there is no function for squaring a number!
-Only a limited set of functions will be provided by the programming language - if you wish,
-you can create your own functions using some simple syntax elements provided by the language.
+Not just Python, but any programming language will provide you with only a limited set
+of functions; if you wish, you can create your own functions!
 
-You can try defining a *sqr* function of your own::
+You can define a *sqr* function of your own::
 
    >>> def sqr(x):
    ...     return x * x
@@ -67,13 +67,13 @@ This is Python's way of telling you that what you are typing right now is part o
 function. You also note that the line "return x * x" is *indented* (that is, there are a few spaces
 between the ... and "return x * x") - this is again part of Python's syntax - the lines in the body
 of a function have to be uniformly indented (you can do it by typing a few spaces, or more conveniently,
-by simply typing a *tab*).
+by simply typing a *tab*. Never mix spaces and tabs - that is a syntax error in Python).
 
 Now, what does the *return* statement do? For the moment, just think of it as another tiny bit of 
 syntax!
 
 How does Python know that you have finished typing the body of the function? When we type an empty line!
-At this point, Python prints the origin three greater-than sign prompt.
+At this point, Python prints the original "three greater-than sign" prompt.
 
 
 Once you have defined *sqr*, you can use it just like all the the other functions::
@@ -215,8 +215,8 @@ We can get rid of the two extra variables and write::
 
 You have to define the *sqr* function properly if both the above examples are to work. The idea
 being conveyed here is that you can build more complex functions using simpler functions - we used
-both *sqrt* and *sqr* to write *line_length*, now you can imagine a more complex function which 
-uses *line_length* in its body! 
+both *sqrt* and *sqr* to write *line_length* (maybe, you can imagine an even more complex function which 
+uses *line_length* in its body)! 
 
 What does 'return' do?
 ----------------------
@@ -244,7 +244,7 @@ There is another aspect of *return* which the following function illustrates::
    ...     m = a + 1
    ...     return m
    ...     n = a - 1
-   ...     return a - 1
+   ...     return n
    ...
    >>> silly(10)
    11
@@ -258,7 +258,125 @@ We have used two return statements in the body of the function. The result of ca
     Your function effectively stops executing after the first return.
 
 
+Boolean Functions
+------------------
 
+Try the following experiments at the Python prompt::
+
+   >>> 1 > 2
+   False
+   >>> 1 < 2
+   True
+   >>> 1 == 1
+   True
+   >>> 1 <> 2
+   True
+   >>> (8 % 2) == 0
+   True
+   >>> not True
+   False
+   >>>
+
+The symbols *True* and *False* (in computing terminology, you call them *boolean* values) are used by Python to identify 
+whether the result of a comparison operation is true or false.
+
+The operator used to check whether two values are equal is '=='. Note that this is totally different from the '=' operator
+(the *assignment* operator) which is used to give value to a variable. The '<>' operator returns True if the numbers
+being compared are not equal. 
+
+In the expression::
+
+   (8 % 2) == 0
+
+% is the remainder operator; remainder when 8 is divided by 2 is zero. So, the above expression becomes::
+
+   0 == 0
+
+which is True.
+
+What does the following function do?::
+
+   >>> def is_even(n):
+   ...      return (n % 2) == 0
+   ...
+   >>> is_even(4)
+   True
+   >>> is_even(5)
+   False
+   >>>
+
+is_even divides its parameter *n* by 2 and finds out the remainder which is either zero or one; zero if number
+is even and one if number is odd. If, for example, n has the value 4, the expression::
+
+   (n % 2) == 0
+
+becomes::
+   
+   0 == 0
+
+which is true! Effectively, *is_even* checks whether its parameter *n* is even.
+
+
+Using if-else statements 
+------------------------- 
+
+Look at the following function definition::
+
+   >>> def maximum(a, b):
+   ...     if (a > b):
+   ...         return a
+   ...     else:
+   ...         return b
+   ...
+   >>> maximum(1, 2)
+   2
+   >>> maximum(20, 10)
+   20
+   >>>
+
+You can see two new Python keywords here - *if* and *else*; together, they form an *if-else* statement. An *if-else* statement
+is merely Python's way of saying::
+
+    if this condition is true, do this action; otherwise, do some other action.
+
+The general format of an *if-else* statement is::
+
+    if (condition):
+        body
+    else:
+        body
+
+The *body* can be either a single statement or it can be multiple statements written one below the other. Special care should
+be taken to make sure that the statement(s) in the body are uniformly *indented* (using equal number of spaces or a single tab).
+In the case of our *maximum* function, because the *if-else* itself comes as the body of a function, we have two levels of
+indentation. Here is how you should type the code::
+
+     Type the first line - def maximum(a, b): and hit Enter
+     Type a tab and then type - if (a > b): and hit Enter
+     Type two tabs and then type - return a  and hit Enter. 
+     Type a single tab and then type - else: and hit Enter
+     Type two tabs and then type - return b and hit Enter
+     Type one more Enter to insert a blank line
+
+You need to type two tabs before typing "return a" and "return b" - this is because Python uses indentation levels
+to decide whether a statement comes as the body of an *if* (or *else*) or a function definition. Only if the 
+line "return a" is indented deeper than the line "if (a>b):" will Python assume that the "return a" is part of the
+body of the *if* statement.  Getting the indentation levels wrong is a common mistake made by beginners!
+
+
+Exercises
+---------
+
+   1) Define a function is_odd which checks whether a number is odd or not.
+   2) Define a function maximum which returns the maximum of three numbers (Hint: you
+      might first define a function which will find out maximum of two numbers and
+      use that to write a function which will return maximum of three numbers).
+
+
+  
+
+     
+     
 
 
 

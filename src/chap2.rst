@@ -31,6 +31,10 @@ to accept commands! Type 1 + 2, hit the *Enter* key and  see what happens::
    In examples like the one above, you should not type the three *greater than* signs - it is automatically
    displayed by Python.
 
+.. note::
+   If Python shows you some error (instead of printing 3), read the section titled "use of space
+   character in Python" which comes at the end of this chapter.
+
 After you hit *Enter*, Python displays the result 3 on the next line and displays the *prompt* once again.
 This is Python's way of telling you that it is ready to accept more commands! Now you know that using Python is
 as easy as using a calculator. 
@@ -172,6 +176,27 @@ Mistakes made by beginners while using variables
     simply do not work that way!
 
 The last mistake is not common, but I have seen students making it in the class!
+
+Use of the space character in Python
+------------------------------------
+
+Another common problem is regarding the use of space. If you wish Python to evaluate
+the expression 1+2, just type 1, followed by the '+' symbol, followed by 2 and then hit Enter.
+If you hit the spacebar key before typing 1, you will get an error which looks like this::
+
+   >>>  1 + 2
+   File "<stdin>", line 1
+    1 + 2
+    ^
+   IndentationError: unexpected indent
+   >>>
+
+It's ok to type as many spaces as you wish between 1 and the '+' symbol and between
+the '+' symbol and 2, but if you type a space at the beginning of the line, that
+will create trouble. In a later chapter, you will see situations where you have to
+type one or more spaces at the beginning of a line.
+
+
 
 Exiting Python
 -------------------
