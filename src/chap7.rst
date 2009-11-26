@@ -1,5 +1,7 @@
+
 Functions with side effects
-===========================
+============================
+
 Python functions are almost like mathematical functions - you give the function some input (give the
 number 2 to the *sqr* function), it performs some computation and gives you an output (4, in the case
 of the *sqr* function). In fact, the only reason we are using a function is because we are interested in 

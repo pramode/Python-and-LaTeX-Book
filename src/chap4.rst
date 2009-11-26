@@ -1,5 +1,6 @@
+
 Introduction to Numeric Arrays
-==============================
+===============================
 
 Let's try an experiment with lists::
 

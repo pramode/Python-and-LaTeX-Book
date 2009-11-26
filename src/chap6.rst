@@ -1,6 +1,6 @@
 
 Defining Functions
-===================
+====================
 
 So far, we have been making use of functions (like *sin*, *linspace*) etc
 provided by Python. In this chapter, we shall see how to create our own
@@ -131,7 +131,7 @@ In the second case, when you call::
    add(p, q, r)
 
 the parameter *x* will assume value of variable *p*; parameters *y* and *z* will assume values of variables
-*q* and *r*.
+*q* and *r*. 
 
 
 What will happen if you try something like this::
@@ -275,6 +275,8 @@ Try the following experiments at the Python prompt::
    True
    >>> not True
    False
+   >>> not False
+   True
    >>>
 
 The symbols *True* and *False* (in computing terminology, you call them *boolean* values) are used by Python to identify 
@@ -283,6 +285,7 @@ whether the result of a comparison operation is true or false.
 The operator used to check whether two values are equal is '=='. Note that this is totally different from the '=' operator
 (the *assignment* operator) which is used to give value to a variable. The '<>' operator returns True if the numbers
 being compared are not equal. 
+
 
 In the expression::
 
@@ -314,7 +317,9 @@ becomes::
    
    0 == 0
 
-which is true! Effectively, *is_even* checks whether its parameter *n* is even.
+which is true! Effectively, *is_even* checks whether its parameter *n* is even. A function like *is_even* which returns True or
+False is called a *boolean* function.
+
 
 
 Using if-else statements 
@@ -374,10 +379,3 @@ Exercises
 
 
   
-
-     
-     
-
-
-
-

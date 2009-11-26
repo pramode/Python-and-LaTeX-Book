@@ -1,5 +1,6 @@
+
 Getting started with Python
-===========================
+============================
 
 The Python programming language was created by a Dutch Computer Scientist called *Guido von Rossum*. Unlike languages like
 C/C++/Java, Python is extremely friendly to beginners - famous Universities like MIT (Massachusettes Institute of

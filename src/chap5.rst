@@ -1,5 +1,6 @@
+
 Doing math with Numeric Arrays
-==============================
+===============================
 
 In this chapter, we will see how to plot curves using Numeric arrays and
 functions like *plot* and *polar*.

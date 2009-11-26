@@ -1,5 +1,5 @@
 Understanding the while loop
-=============================
+==============================
 
 A set of Python statements can be executed repeatedly using a *while* loop. This chapter
 examines the syntax of the while loop using some simple examples.
@@ -136,7 +136,7 @@ This process repeats until both *a* and *b* become equal. At that point, the loo
 the value of *a* and *b*, you will see that both are 6.
 
 A small problem with this approach is that any time you wish to calculate the HCF of two numbers, you have
-type the whole loop all over again. This is difficult. 
+type the whole loop all over again. This is difficult. The next section shows how this problem can be solved.
 
 
 Defining a function to compute HCF of two numbers

@@ -4,7 +4,8 @@
    contain the root `toctree` directive.
 
 An introduction to Python and LaTeX
-========================================
+====================================
+
 The  BSc Informatics course conducted by `University of Calicut <http://http://www.universityofcalicut.info>`_ is based completely on Free  Software. Students are required to study the Python programming language and also learn how to
 prepare technical documents using LaTeX. Majority of the students have a computing background 
 limited to using Microsoft Windows for simple tasks like web browsing. 
@@ -20,12 +21,13 @@ to master Python syntax and idioms in depth. There are plenty of great resources
 *Dive into Python* (available at  http://www.diveintopython.org).
 
 
+
 License
-========
+--------
 This book is published under the `GNU FDL <http://www.gnu.org/copyleft/fdl.html>`_
 
 How to build the book from source
-=================================
+----------------------------------
 
 This book is written using an excellent tool called `Sphinx <http://sphinx.pocoo.org/>`_. Sphinx
 allows you to write in simple `restructured text <http://docutils.sourceforge.net/rst.html>`_ format -
@@ -40,13 +42,12 @@ a build which directly delivers  HTML files to the web server's (I use Nginx - d
 if you find Apache to be a memory hog) static files folder is all that is needed to "publish" the book!
 
 
-
-Contents
-=========
+Part 1 - Python
+----------------
 
 .. toctree::
-   :maxdepth: 2
-   
+   :numbered:
+
    src/chap1.rst
    src/chap2.rst
    src/chap3.rst
@@ -55,4 +56,4 @@ Contents
    src/chap6.rst
    src/chap7.rst
    src/chap8.rst
-
+   src/chap9.rst
