@@ -116,6 +116,7 @@ and asked to write some code to select the odd numbers (11, 13 and 17, in this c
    ...    i = i + 1
    ...
    >>>
+
 Here is a shorter (and clearer) version of the code using what is called a *for* loop::
 
    >>> a = [10, 11, 14, 13, 17, 24, 78]

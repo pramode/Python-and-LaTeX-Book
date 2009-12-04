@@ -60,7 +60,7 @@ Here is a screen shot of a Fedora desktop with the terminal application active.
 
 You can type commands within the terminal window and they would get executed. Say for example you wish to
 see the current date - the command for doing this is simply  *date*. Here is what you might see if
-you type **date**::
+you type **date** (followed by the *Enter* key)::
 
    [ram@knuth ~]$ date
    Wed Nov 11 12:28:19 IST 2009
