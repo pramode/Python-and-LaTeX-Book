@@ -103,7 +103,7 @@ starting with two  *underscore* signs in the above list.
 The working of many of these functions should be evident from their names. If you wish, you can get
 information about what the function actually does by using *help*::
 
-   >>> help(math)
+   >>> help(math.hypot)
    hypot(...)
     hypot(x,y)
     

@@ -81,7 +81,7 @@ exclude_trees = ['_build']
 #show_authors = False
 
 # The name of the Pygments (syntax highlighting) style to use.
-pygments_style = 'sphinx'
+pygments_style = 'none'
 
 # A list of ignored prefixes for module index sorting.
 #modindex_common_prefix = []
@@ -167,7 +167,7 @@ htmlhelp_basename = 'PythonLaTeXBookdoc'
 #latex_paper_size = 'letter'
 
 # The font size ('10pt', '11pt' or '12pt').
-#latex_font_size = '10pt'
+latex_font_size = '12pt'
 
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
@@ -192,3 +192,6 @@ latex_documents = [
 
 # If false, no module index is generated.
 #latex_use_modindex = True
+
+latex_elements = {'classoptions':',openany,english',}
+

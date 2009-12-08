@@ -24,8 +24,8 @@ numbers. Python provides a powerful *list* notation to do this::
    >>>
 
 The idea is simple - just write a sequence of numbers (separated by comma) within
-two brackets and you have what is called a Python *list*. In the above case, we can
-say that the variable *p* represents a point with co-ordinates 2 and 3.
+two brackets (note that we are using *square brackets* here) and you have what is called a Python *list*. 
+In the above case, we can say that the variable *p* represents a point with co-ordinates 2 and 3.
 
 The number of elements in a list is not limited - you can have as many as you like::
 

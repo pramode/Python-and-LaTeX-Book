@@ -20,10 +20,25 @@ through simple math examples usually leads to confusion. So, this book will not 
 to master Python syntax and idioms in depth. There are plenty of great resources on the net for that, one of the best being
 *Dive into Python* (available at  http://www.diveintopython.org).
 
+Please note that this book is a work in progress.
 
+Download
+---------
+
+Download PDF version of the book `from here <http://fossmentor.com/books/pdfs/pylatex.pdf>`_. 
+
+The PDF version is not in sync with the online version.
+
+Community
+----------
+
+I will be setting
+up a forum shortly where students and teachers using the book can share ideas and help
+each other.
 
 License
 --------
+
 This book is published under the `GNU FDL <http://www.gnu.org/copyleft/fdl.html>`_
 
 How to build the book from source

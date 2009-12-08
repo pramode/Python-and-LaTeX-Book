@@ -38,7 +38,7 @@ A simple function works like this - you give it one or more numbers, it performs
 using these numbers and gives back the result. In the above case, you are asking Python to::
 
 
-   Define a function which takes in one number *x* and gives back x*x.
+   Define a function which takes in one number x and gives back x*x.
 
 It is as simple as that; but you will have to follow a few syntax rules strictly
 if you want your function definitions to work properly.
