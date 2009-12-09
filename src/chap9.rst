@@ -30,7 +30,9 @@ Writing a program is similar to composing an essay. Ultimately, your program
 has to run on a computer and provide correct output. But it should also be easy
 for other people to read, understand and modify your code. Let's study the Python
 implementation of a simple square root finding algorithm to understand how
-functions can be used to write clear code.
+functions can be used to write clear code (the code I have presented here is
+the Python version of a program presented in the famouse book *Structure and
+Interpretation of Computer Programs*).
 
 
 Finding square roots
