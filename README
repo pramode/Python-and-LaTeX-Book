@@ -1,0 +1,18 @@
+How to build the book
+-----------------------
+
+a) Set up Sphinx (http://sphinx.pocoo.org/)
+b) Type: 
+
+    make html
+
+to build the book for online browsing. You will find the
+HTML files under _build/html
+
+c) Type:
+
+   make latex
+
+to generate latex output. The latex files will be under
+_build/latex. Run `make' in this folder.
+
