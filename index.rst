@@ -35,13 +35,19 @@ Community
 Use your email id and subscribe to the book mailing 
 list at: `http://freelists.org/list/pymath <http://freelists.org/list/pymath>`_.
 
-Once you have joined the list, you can post messages to **pymath@freelists.org** and
-everybody who is subscribed will get a copy of your message. You can use the list to
+Once you have joined the list, you can post messages to :
+
+.. image:: images/pymath.png
+
+and everybody who is subscribed will get a copy of your message. You can use the list to
 get your doubts cleared, share ideas, point out errors, provide interesting exercise
 problems and pretty much anything interesting which you can imagine!
 
 If you have any problems joining the list/posting messages, please do get in touch
-with **pramode@radiantbytes.com**.
+with:
+
+.. image:: images/pramode-radiant.png
+
 
 
 License
