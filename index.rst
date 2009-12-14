@@ -41,7 +41,7 @@ get your doubts cleared, share ideas, point out errors, provide interesting exer
 problems and pretty much anything interesting which you can imagine!
 
 If you have any problems joining the list/posting messages, please do get in touch
-with **pramode@radiantbtes.com**.
+with **pramode@radiantbytes.com**.
 
 
 License
