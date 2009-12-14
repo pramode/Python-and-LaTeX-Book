@@ -87,7 +87,7 @@ answer, you have to make one (or both) of the numbers float.
 You will encounter some other problems when dealing with floating point numbers; problems mostly concerning accuracy
 of the result. Here is a simple experiment you can try at the Python prompt::
 
-   >>> 1.5 + 1
+   >>> 1.5 + 1.1
    2.6000000000000001
    >>>
 
