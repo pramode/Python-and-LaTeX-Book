@@ -3,9 +3,9 @@ Getting started with Python
 ============================
 
 The Python programming language was created by a Dutch Computer Scientist called *Guido von Rossum*. Unlike languages like
-C/C++/Java, Python is extremely friendly to beginners - famous Universities like MIT (Massachusettes Institute of
+C/C++/Java, Python is extremely friendly to beginners - famous Universities like MIT (Massachusetts Institute of
 Technology) use it to teach introductory programming courses. It is also a modern, powerful general purpose programming 
-language used by companies and research instituitions all over the world to solve complex computing problems.
+language used by companies and research institutions all over the world to solve complex computing problems.
 
 First steps - use Python as a calculator!
 -----------------------------------------
@@ -92,7 +92,7 @@ of the result. Here is a simple experiment you can try at the Python prompt::
    >>>
 
 You may be surprised at not getting exactly 2.6 as the result. The reason for this behaviour is somewhat complex and
-it's explanation is beyond the scope of this book. At this point, it is sufficient to understand that floating point
+its explanation is beyond the scope of this book. At this point, it is sufficient to understand that floating point
 arithmetic is tricky (in all programming languages, not just Python).
 
 .. note::
@@ -203,7 +203,7 @@ Exiting Python
 -------------------
 If you wish to stop using Python, simply type *Ctrl-d* (hold down the key labelled *Ctrl* on the
 keyboard and then type the letter **d**). All the variable assignments which you have
-made are lost if you exit Python.
+made are lost when you exit Python.
 
 .. note::
    It is assumed that you are running Python on a GNU/Linux system. On a Windows system, you have

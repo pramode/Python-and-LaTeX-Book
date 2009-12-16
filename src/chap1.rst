@@ -35,7 +35,7 @@ Shown below is the screenshot of a Fedora GNU/Linux desktop.
 .. image:: ../images/desktop1c.png
 
 
-You will find menu's like *Applications*, *Places*, *System* etc. The menu layout and desktop appearance will
+You will find menus like *Applications*, *Places*, *System* etc. The menu layout and desktop appearance will
 be different on different GNU/Linux distributions. But that shouldn't bother you too much. A little experimentation
 is all that is required to get up and running fast!
 
@@ -50,8 +50,8 @@ The GNU/Linux Commandline
 --------------------------
 The mouse based Graphical User Interface is ideal for beginners. But once you start writing programs 
 you will have to interact with the operating system by typing commands. You need
-to open a terminal for doing this. On a Fedora system, the terminal is available in the *Sytem tools* sub-menu
-of the *Applications* menu (it's name is simply *Terminal*). The location of this program may be different on
+to open a terminal for doing this. On a Fedora system, the terminal is available in the *System tools* sub-menu
+of the *Applications* menu (its name is simply *Terminal*). The location of this program may be different on
 other GNU/Linux distributions - so you will definitely have to experiment a bit!
 
 Here is a screen shot of a Fedora desktop with the terminal application active.
