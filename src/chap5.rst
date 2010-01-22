@@ -125,7 +125,7 @@ how they work::
 
 .. note::
 
-   The function call *arange(0, 2*pi, 0.4* returns a numeric sequence from 0 to 2*pi - each number in the sequence 
+   The function call *arange(0, 2*pi, 0.4)* returns a numeric sequence from 0 to 2*pi - each number in the sequence 
    differs from the next by 0.4.
 
 
