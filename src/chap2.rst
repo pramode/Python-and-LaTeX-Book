@@ -110,7 +110,10 @@ Try the following experiment::
    >>>
 
 Python can handle very large integer values. Note that the number shown above has an **L** at the end -
-this is Python's way of saying that you are dealing with a *long* integer! 
+this is Python's way of saying that you are dealing with a *long* integer! (Python does not do any kind
+of approximation when representing such large numbers - the number you have seen above is the *exact* value
+of 2 to the power of 320).
+
 
 Using variables
 ----------------
@@ -227,5 +230,21 @@ Exercises
       *Great Internet Mersenne Prime search* on the net).
 
 
+   2) Find factorial of 20 using Python.
 
+   3) Wilson's theorem states that the number (p - 1)! + 1 is divisible by p for all primes p. Also, if p is
+     not a prime number, then (p - 1)! + 1 is not divisible by p. Try a few
+     experiments in Python to demonstrate this theorem.
+
+   4) Fermat's little theorem states that if *p* is a prime number, then for any integer *a*:
+  
+        .. math::
+           a^{p} - a
+     
+     is divisible by *p*. Use Python and test the theorem with some large prime numbers.
+
+   5) Find out what happens if you divide a number by zero in Python.
+
+  
+               
 
