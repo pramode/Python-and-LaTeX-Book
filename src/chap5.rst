@@ -93,6 +93,42 @@ point in the plane and the first one gives the corresponding angles. Here is the
 
 .. image:: ../images/rose2.png
 
+Labels and title
+-------------------
+
+You can give a title to your plot by using a function called *title* (call this function before calling
+*show*)::
+
+   >>> title('A simple Sin curve')
+   <matplotlib.text.Text object at 0x8d31bec>
+   >>>show()
+
+Labels can be given to the X and Y axes::
+
+   >>> xlabel('X axis')
+   <matplotlib.text.Text object at 0x89d26ec>
+   >>> ylabel('Y axis')
+   <matplotlib.text.Text object at 0x8a87b8c>
+   >>> show()
+
+*xticks* and *yticks* are two other interesting functions. Try out the experiment below to understand
+how they work::
+
+   >>> x = linspace(0, 2*pi, 200)
+   >>> y = sin(x)
+   >>> m = arange(0, 2*pi, .4)
+   >>> n = arange(-1, 1, .2)
+   >>> xticks(m)
+   >>> yticks(n)
+   >>> plot(x, y)
+   >>> show()
+
+.. note::
+
+   The function call *arange(0, 2*pi, 0.4* returns a numeric sequence from 0 to 2*pi - each number in the sequence 
+   differs from the next by 0.4.
+
+
 
 Exercises
 ----------
