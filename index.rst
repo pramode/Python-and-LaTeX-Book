@@ -90,4 +90,5 @@ Part 1 - Python
    src/chap11.rst
    src/chap12.rst
    src/chap13.rst
+   src/chap14.rst
 
