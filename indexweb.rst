@@ -25,9 +25,8 @@ Please note that this book is a work in progress.
 Download
 ---------
 
-Download PDF version of the book `from here <http://fossmentor.com/books/pdfs/pylatex.pdf>`_. 
+Download up-to-date PDF version of the book `from here <http://radiantbytes.com/books/pdfs/pylatex.pdf>`_. 
 
-The PDF version is not in sync with the online version.
 
 Community
 ----------
