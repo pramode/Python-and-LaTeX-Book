@@ -65,8 +65,8 @@ You are reading the Sphinx generated book right now!  Source files are available
 `GitHub <http://github.com/pramode/Python-and-LaTeX-Book>`_.
 
 A little bit about my book-writing workflow. I maintain a git repo on my home machine from where I
-occassionally push to `GitHub <http://github.com/pramode/Python-and-LaTeX-Book>`_. I have another git
-repository on my Linode slice which hosts the book - occassional pulls from github combined with
+occasionally push to `GitHub <http://github.com/pramode/Python-and-LaTeX-Book>`_. I have another git
+repository on my Linode slice which hosts the book - occasional pulls from github combined with
 a build which directly delivers  HTML files to the web server's (I use Nginx - do try it out
 if you find Apache to be a memory hog) static files folder is all that is needed to "publish" the book!
 
@@ -91,4 +91,5 @@ Part 1 - Python
    src/chap12.rst
    src/chap13.rst
    src/chap14.rst
+   src/appendex1.rst
 

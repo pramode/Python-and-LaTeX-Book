@@ -233,15 +233,15 @@ Exercises
    2) Find factorial of 20 using Python.
 
    3) Wilson's theorem states that the number (p - 1)! + 1 is divisible by p for all primes p. Also, if p is
-     not a prime number, then (p - 1)! + 1 is not divisible by p. Try a few
-     experiments in Python to demonstrate this theorem.
+      not a prime number, then (p - 1)! + 1 is not divisible by p. Try a few
+      experiments in Python to demonstrate this theorem.
 
    4) Fermat's little theorem states that if *p* is a prime number, then for any integer *a*:
   
         .. math::
            a^{p} - a
      
-     is divisible by *p*. Use Python and test the theorem with some large prime numbers.
+      is divisible by *p*. Use Python and test the theorem with some large prime numbers.
 
    5) Find out what happens if you divide a number by zero in Python.
 

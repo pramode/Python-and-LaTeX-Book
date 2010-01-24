@@ -1,0 +1,11 @@
+echo Generating html output ...
+
+ln -s webimages images
+ln -s indexweb.rst index.rst
+make html
+
+
+rm images
+rm index.rst
+
+
