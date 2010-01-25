@@ -87,14 +87,14 @@ First, we run the command *latex*::
 This will generate a new file called "ramanuja.dvi". You have to convert a .dvi file to either PDF or Postscript
 by using the commands *dvipdf* or *dvips*::
 
-   dvips 1.dvi
+   dvips ramanuja.dvi
 
-will generate a new Postscript file called "1.ps" which can be directly printed or viewed on the 
+will generate a new Postscript file called "ramanuja.ps" which can be directly printed or viewed on the 
 screen using *xpdf* or *evince*.
 
 If you wish to generate PDF output, you can try::
 
-   dvipdf 1.dvi
+   dvipdf ramanuja.dvi
 
 
 What does LaTeX really do?
