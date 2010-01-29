@@ -41,7 +41,7 @@ above document::
    $E = mc^{2}$
 
 is in math mode. The equation is displayed in the same line (it is called an in-text formula). When
-the same equation is written between a "\[" and "\]", it is said to be in *displaymath* mode; it is
+the same equation is written between a "\\[" and "\\]", it is said to be in *displaymath* mode; it is
 displayed on a line of its own. 
 
 When the equation is written between a "\\begin{equation}" and "\\end{equation}", LaTeX gives it an
