@@ -59,8 +59,8 @@ combinations. The equation:
 itself is a good example. LaTeX displays the number 2 as a "superscript" when the "^" operator is used.
 
    
-A few example equations
------------------------
+A few examples
+----------------
 
 Given below are a few samples of the kind of mathematical expressions you can create using LaTeX (the
 expressions have to be in one of math, displaymath or equation modes - that is omitted in the examples).
