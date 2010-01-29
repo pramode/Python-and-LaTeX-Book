@@ -91,5 +91,6 @@ Part 1 - Python
    src/chap13.rst
    src/chap14.rst
    src/chap15.rst
+   src/chap16.rst
    src/appendix1.rst
 
