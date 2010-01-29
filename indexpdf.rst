@@ -41,6 +41,7 @@ at this address: http://radiantbytes.com/books/python-latex
    src/chap12.rst
    src/chap13.rst
    src/chap14.rst
+   src/chap15.rst
    src/appendix1.rst
 
 License
