@@ -20,8 +20,9 @@ through simple math examples usually leads to confusion. So, this book will not 
 to master Python syntax and idioms in depth. There are plenty of great resources on the net for that, one of the best being
 *Dive into Python* (available at  http://www.diveintopython.org).
 
-This book is being updated continuously - the most recent version is available on the Internet
-at this address: http://radiantbytes.com/books/python-latex
+This book is being updated continuously - the most recent version is openly available on the Internet
+at this address: http://radiantbytes.com/books/python-latex. Please visit this web site if you
+wish to contact the author or discuss problems encountered while teaching the subject. 
 
 
 .. toctree::

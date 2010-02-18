@@ -70,7 +70,7 @@ a build which directly delivers  HTML files to the web server's (I use Nginx - d
 if you find Apache to be a memory hog) static files folder is all that is needed to "publish" the book!
 
 
-Part 1 - Python
+Contents
 ----------------
 
 .. toctree::
