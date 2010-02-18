@@ -75,7 +75,7 @@ The *polar rose* is defined as:
 
   r(\theta) = acos({k\theta})
 
-We get a k-petalled rose if *k* is odd and *2k* petalled rose if *k* is even. Here is a
+We get a k-petaled rose if *k* is odd and *2k* petaled rose if *k* is even. Here is a
 Python code fragment which plots the polar rose::
 
    >>> from pylab import *
@@ -132,8 +132,8 @@ how they work::
 
 Exercises
 ----------
-   1) Refer your maths textbook and find out the polar equation of the curve called a *cardiod*. Try
-      to plot the *cardiod* using Python.
+   1) Refer your maths textbook and find out the polar equation of the curve called a *cardioid*. Try
+      to plot the *cardioid* using Python.
 
    2) Try to plot a circle in polar coordinates.
 

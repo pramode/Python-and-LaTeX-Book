@@ -132,7 +132,7 @@ The first statement::
 
 simply makes available all the functions in a module called *pylab*. If you get an error while executing this statement, it
 means the module is not installed on your system. Read the Appendix of this book to learn how you can install additional software
-on your GNU/Lnux system.
+on your GNU/Linux system.
 
 We are making use of only one function from the *pylab* module in the above example; a function called *array*. What does *array*
 do? It acts on an ordinary Python list *a* and produces a *Numeric sequence* called (in this example) *b*.  You can now 
@@ -140,7 +140,7 @@ add 1 to all the elements of the sequence by just writing::
 
    b + 1
 
-Similiarly, you can multiply all the elements of *b* with 2 by doing::
+Similarly, you can multiply all the elements of *b* with 2 by doing::
 
    b * 2
 

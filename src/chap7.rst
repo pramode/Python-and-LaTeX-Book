@@ -11,7 +11,7 @@ But this need not be the case always. In this chapter, we examine how to write f
 *side effects*.
 
 
-Modelling a bank account
+Modeling a bank account
 -------------------------
 Most useful computer programs are closely connected with the  real world. When you go
 to a bank to deposit or withdraw money, you are interacting with a computer program

@@ -134,7 +134,7 @@ The general form of a *for* loop is::
 In the above case, the *variable_name* is *k* and the *sequence* is the list *a*; the body of the *for* loop
 is an *if* statement. This is the way the *for* loop works: the statements in the body get executed as many
 times as there are elements in the given sequence. In our example, the body gets executed seven times. Each
-time the loop executes, varaible *k* will be assigned value of the next element in the sequence; so *k* will
+time the loop executes, variable *k* will be assigned value of the next element in the sequence; so *k* will
 be initially 10, then it becomes 11 (in the next iteration) and so on till 78.
 
 The *for* loop is not a complete replacement for the *while* loop; it is useful only in those

@@ -151,7 +151,7 @@ Now, you are trying to call the functions with more values than are required. Th
 Functions with multiple statements in the body
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Length of a line segment onnecting the points (a, b) and (c, d) is:
+Length of a line segment connecting the points (a, b) and (c, d) is:
 
 .. math::
    l = \sqrt{(c - a) ^ {2} + (d - b) ^ {2})}

@@ -31,7 +31,7 @@ has to run on a computer and provide correct output. But it should also be easy
 for other people to read, understand and modify your code. Let's study the Python
 implementation of a simple square root finding algorithm to understand how
 functions can be used to write clear code (the code I have presented here is
-the Python version of a program presented in the famouse book *Structure and
+the Python version of a program presented in the famous book *Structure and
 Interpretation of Computer Programs*).
 
 

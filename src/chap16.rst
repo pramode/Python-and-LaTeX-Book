@@ -170,7 +170,7 @@ Here is how you can draw a circle::
 
    \put(20,30) {circle{20}}
 
-This draws a circle at centre (20,30) with diameter 20 points. 
+This draws a circle at center (20,30) with diameter 20 points. 
 
 The command::
 
@@ -287,7 +287,7 @@ Once this is done, you can  use::
 
    \includegraphics{ramanujan.eps}
 
-to incude the image in your document.
+to include the image in your document.
 
 
 Using "pstricks" for advanced picture drawing

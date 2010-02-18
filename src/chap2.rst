@@ -135,7 +135,7 @@ it is used. In the above example, Python will generate an error if you try to do
    NameError: name 'z' is not defined
    >>>
 
-Look at the last line - it says *Namerror: name 'z' is not defined* - the problem is, you have not given a value
+Look at the last line - it says *NameError: name 'z' is not defined* - the problem is, you have not given a value
 to variable z (you need not bother with the other two lines in the error message - they can be safely ignored).
 
 Mathematicians usually use single letter variable names like *x*, *y*, *z*, *a*, *b* etc. But Python has no problems with
@@ -195,7 +195,7 @@ If you hit the spacebar key before typing 1, you will get an error which looks l
    IndentationError: unexpected indent
    >>>
 
-It's ok to type as many spaces as you wish between 1 and the '+' symbol and between
+It's OK to type as many spaces as you wish between 1 and the '+' symbol and between
 the '+' symbol and 2, but if you type a space at the beginning of the line, that
 will create trouble. In a later chapter, you will see situations where you have to
 type one or more spaces at the beginning of a line.
@@ -204,7 +204,7 @@ type one or more spaces at the beginning of a line.
 
 Exiting Python
 -------------------
-If you wish to stop using Python, simply type *Ctrl-d* (hold down the key labelled *Ctrl* on the
+If you wish to stop using Python, simply type *Ctrl-d* (hold down the key labeled *Ctrl* on the
 keyboard and then type the letter **d**). All the variable assignments which you have
 made are lost when you exit Python.
 

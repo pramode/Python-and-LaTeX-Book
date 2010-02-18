@@ -9,7 +9,7 @@ Elementary list manipulation
 
 Creating a list
 ~~~~~~~~~~~~~~~
-A point in the cartesian plane is represented by two numbers - its X and Y co-ordinates. Using
+A point in the Cartesian plane is represented by two numbers - its X and Y co-ordinates. Using
 simple Python variables, we might write::
 
    >>> x = 2

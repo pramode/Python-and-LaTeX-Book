@@ -30,7 +30,7 @@ working GNU/Linux system at hand.
 Using GNU/Linux
 ----------------
 
-Shown below is the screenshot of a Fedora GNU/Linux desktop.
+Shown below is the screen shot of a Fedora GNU/Linux desktop.
 
 .. image:: ../images/desktop1c.png
 
@@ -46,7 +46,7 @@ Here are some common GNU/Linux applications for tasks like editing documents, br
    * GIMP - a powerful image manipulation program. You will love this if you are a graphics artist.
 
 
-The GNU/Linux Commandline
+The GNU/Linux Command line
 --------------------------
 The mouse based Graphical User Interface is ideal for beginners. But once you start writing programs 
 you will have to interact with the operating system by typing commands. You need
